@@ -3,10 +3,10 @@ document.getElementById('peso').addEventListener('input', verificar);
 document.getElementById('altura').addEventListener('input', verificar);
 
 function verificar() {
-    var nome = document.getElementById('nome').value;
-    var peso = document.getElementById('peso').value;
-    var altura = document.getElementById('altura').value;
-    var btn = document.getElementById('btn');
+    let nome = document.getElementById('nome').value;
+    let peso = document.getElementById('peso').value;
+    let altura = document.getElementById('altura').value;
+    let btn = document.getElementById('btn');
   
     if (nome !== '' && peso !== '' && altura !== '') {
         btn.disabled = false;
