@@ -1,0 +1,87 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #EEF1EF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #A9B4C2;
+  padding: 32px 48px;
+}
+
+h1 {
+  font-size: 38px;
+  letter-spacing: 2px;
+  margin-block-start: 0.2em;
+  margin-block-end: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+}
+
+input:not([type="radio"]) {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input:not(.button, [type="radio"]) {
+  border: none;
+  height: 28px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+input[type="radio"] {
+  font-size: 12px;
+}
+
+button {
+  background-color: #EEF1EF;
+  padding: 12px 48px;
+  border-radius: 12px;
+  border: none;
+  width: 100%;
+  margin: 24px 0px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+button:not(:disabled):hover {
+  cursor: pointer;
+}
+
+textarea {
+  margin: 24px 0px;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+input[type="number"] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
